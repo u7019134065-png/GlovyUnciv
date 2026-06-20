@@ -1,1 +1,100 @@
-[{"name": "Маленька Шахта","replaces": "Mine","uniqueTo": "Ukraine","cost": 80,"gold": 40,"maintenance": 1},{"name": "Середня Шахта","replaces": "Mine","uniqueTo": "Ukraine","cost": 120,"gold": 80,"maintenance": 2},{"name": "Огромна Шахта","replaces": "Mine","uniqueTo": "Ukraine","cost": 200,"gold": 260,"maintenance": 4},{"name": "Огромнейшая Шахта","replaces": "Mine","uniqueTo": "Ukraine","cost": 350,"gold": 500,"maintenance": 8},{"name": "МегаПолис","replaces": "National Epic","uniqueTo": "Ukraine","cost": 300,"gold": 350,"food": 100,"culture": 600,"happiness": 500,"faith": 500,"production": 1000,"science": 1000},{"name": "Гимн України","replaces": "Monument","uniqueTo": "Ukraine","cost": 60,"happiness": 70},{"name": "Гулаг","replaces": "Prison","uniqueTo": "СССР","cost": 150,"happiness": -10,"production": 50}]
+[
+  {
+    "name": "Маленька Шахта",
+    "replaces": "Mine",
+    "uniqueTo": "Ukraine",
+    "cost": 80,
+    "gold": 40,
+    "maintenance": 2,
+    "requiredTech": "Mining"
+  },
+  {
+    "name": "Середня Шахта",
+    "replaces": "Mine",
+    "uniqueTo": "Ukraine",
+    "cost": 120,
+    "gold": 80,
+    "maintenance": 3,
+    "requiredTech": "Mining"
+  },
+  {
+    "name": "Огромна Шахта",
+    "replaces": "Mine",
+    "uniqueTo": "Ukraine",
+    "cost": 200,
+    "gold": 260,
+    "maintenance": 5,
+    "requiredTech": "Mining"
+  },
+  {
+    "name": "Огромнейшая Шахта",
+    "replaces": "Mine",
+    "uniqueTo": "Ukraine",
+    "cost": 350,
+    "gold": 500,
+    "maintenance": 8,
+    "requiredTech": "Mining"
+  },
+  {
+    "name": "МегаПолис",
+    "replaces": "National Epic",
+    "uniqueTo": "Ukraine",
+    "cost": 300,
+    "gold": 350,
+    "food": 100,
+    "culture": 600,
+    "happiness": 500,
+    "faith": 500,
+    "production": 1000,
+    "science": 1000,
+    "requiredTech": "Engineering"
+  },
+  {
+    "name": "Гімн України",
+    "replaces": "Monument",
+    "uniqueTo": "Ukraine",
+    "cost": 60,
+    "happiness": 70,
+    "requiredTech": "Drama"
+  },
+  {
+    "name": "Стінне Рисування",
+    "replaces": "Monument",
+    "uniqueTo": "Ukraine",
+    "cost": 70,
+    "culture": 30,
+    "requiredTech": "Drama"
+  },
+  {
+    "name": "Хвилина Мовчання",
+    "replaces": "Monument",
+    "uniqueTo": "Ukraine",
+    "cost": 100,
+    "happiness": 300,
+    "requiredTech": "Theology"
+  },
+  {
+    "name": "Достоинство",
+    "replaces": "Temple",
+    "uniqueTo": "Ukraine",
+    "cost": 150,
+    "faith": 300,
+    "requiredTech": "Theology"
+  },
+  {
+    "name": "Щоденна Рубка",
+    "replaces": "Workshop",
+    "uniqueTo": "Ukraine",
+    "cost": 180,
+    "production": 700,
+    "requiredTech": "Metal Casting"
+  },
+  {
+    "name": "Гулаг",
+    "replaces": "Prison",
+    "uniqueTo": "СССР",
+    "cost": 150,
+    "production": 50,
+    "happiness": -10
+  }
+]
