@@ -1,1 +1,200 @@
-[{"name": "Ukraine","leaderName": "Володимир Зеленський","adjective": ["Український"],"startBias": ["Plains"],"preferredVictoryType": "Cultural","outerColor": [255,215,0],"innerColor": [0,87,183],"unique": "Unbreakable Spirit - +20% Culture and Defense","cities": ["Київ","Харків","Одеса","Львів","Дніпро","Запоріжжя","Луцьк","Вінниця","Полтава","Суми","Чернігів","Херсон","Миколаїв","Черкаси","Житомир","Кривий Ріг","Маріуполь","Донецьк","Луганськ"]},{"name": "СССР","leaderName": "Иосиф Сталин","adjective": ["Советский"],"startBias": ["Tundra"],"preferredVictoryType": "Domination","outerColor": [220,20,60],"innerColor": [255,215,0],"unique": "Великая Держава","cities": ["Москва","Ленинград","Киев","Минск","Алма-Ата"]},{"name": "Kazakhstan","leaderName": "Нурсултан Назарбаев","adjective": ["Казахский"],"startBias": ["Plains"],"preferredVictoryType": "Scientific","outerColor": [0,128,0],"innerColor": [255,215,0],"unique": "Степная Империя","cities": ["Астана","Алматы","Шымкент"]},{"name": "Belarus","leaderName": "Александр Лукашенко","adjective": ["Белорусский"],"startBias": ["Forest"],"preferredVictoryType": "Diplomatic","outerColor": [0,0,139],"innerColor": [255,255,255],"unique": "Стабильность","cities": ["Минск","Гомель","Могилев"]},{"name": "Afghanistan","leaderName": "Ашраф Гани","adjective": ["Афганский"],"startBias": ["Desert"],"preferredVictoryType": "Domination","outerColor": [0,0,0],"innerColor": [220,20,60],"unique": "Горная Война","cities": ["Кабул","Кандагар","Герат"]},{"name": "Taiwan","leaderName": "Цай Инвэнь","adjective": ["Тайваньский"],"startBias": ["Coast"],"preferredVictoryType": "Scientific","outerColor": [0,0,139],"innerColor": [255,0,0],"unique": "Технологический Дракон","cities": ["Тайбэй","Гаосюн","Тайчжун"]},{"name": "Bees","leaderName": "Queen Bee","adjective": ["Пчелиный"],"startBias": ["Plains"],"preferredVictoryType": "Cultural","outerColor": [255,215,0],"innerColor": [0,0,0],"unique": "Hive Mind","cities": ["The Hive","Honeycomb City"]},{"name": "Ants","leaderName": "Ant King","adjective": ["Муравьиный"],"startBias": ["Forest"],"preferredVictoryType": "Domination","outerColor": [139,69,19],"innerColor": [0,0,0],"unique": "Colony Strength","cities": ["Ant Hill","Underground Empire"]}]
+[
+  {
+    "name": "Ukraine",
+    "leaderName": "Володимир Зеленський",
+    "adjective": ["Український"],
+    "startBias": ["Plains"],
+    "preferredVictoryType": "Cultural",
+    "startIntroPart1": "Слава Україні!",
+    "startIntroPart2": "Ми ніколи не здамося!",
+    "declaringWar": "За свободу і незалежність!",
+    "attacked": "Ми вистоїмо!",
+    "defeated": "Слава Україні! Героям слава!",
+    "introduction": "Вітаємо з України!",
+    "cities": ["Київ", "Харків", "Одеса", "Львів", "Дніпро", "Запоріжжя", "Луцьк", "Вінниця", "Полтава", "Суми", "Чернігів", "Херсон", "Миколаїв", "Черкаси", "Житомир", "Кривий Ріг", "Маріуполь"],
+    "outerColor": [255, 215, 0],
+    "innerColor": [0, 87, 183],
+    "unique": "Unbreakable Spirit"
+  },
+  {
+    "name": "СССР",
+    "leaderName": "Йосип Сталін",
+    "adjective": ["Советский"],
+    "startBias": ["Tundra"],
+    "preferredVictoryType": "Domination",
+    "startIntroPart1": "Пролетарии всех стран, соединяйтесь!",
+    "declaringWar": "За Родину, за Сталина!",
+    "cities": ["Москва", "Ленинград", "Киев", "Минск", "Ташкент", "Баку", "Алма-Ата"],
+    "outerColor": [220, 20, 60],
+    "innerColor": [255, 215, 0]
+  },
+  {
+    "name": "Kazakhstan",
+    "leaderName": "Нурсултан Назарбаев",
+    "adjective": ["Қазақ"],
+    "startBias": ["Plains"],
+    "cities": ["Астана", "Алматы", "Шымкент", "Актобе", "Караганда"],
+    "outerColor": [0, 150, 0],
+    "innerColor": [255, 215, 0]
+  },
+  {
+    "name": "Belarus",
+    "leaderName": "Аляксандр Лукашэнка",
+    "adjective": ["Беларускі"],
+    "cities": ["Мінск", "Гомель", "Брест", "Віцебск", "Гродна"],
+    "outerColor": [0, 100, 0],
+    "innerColor": [255, 255, 255]
+  },
+  {
+    "name": "Afghanistan",
+    "leaderName": "Ашраф Гані",
+    "adjective": ["افغان"],
+    "cities": ["Кабул", "Кандагар", "Герат", "Мазари-Шариф"],
+    "outerColor": [0, 0, 139],
+    "innerColor": [220, 20, 60]
+  },
+  {
+    "name": "Taiwan",
+    "leaderName": "Цай Інвень",
+    "adjective": ["台灣"],
+    "cities": ["Тайбей", "Гаосюн", "Тайчжун", "Тайнань"],
+    "outerColor": [255, 0, 0],
+    "innerColor": [0, 0, 255]
+  },
+  {
+    "name": "Bees",
+    "leaderName": "Королева Бджіл",
+    "adjective": ["Бджолиний"],
+    "cities": ["Вулик", "Пасіка", "Медова Долина"],
+    "outerColor": [255, 215, 0],
+    "innerColor": [0, 0, 0]
+  },
+  {
+    "name": "Ants",
+    "leaderName": "Король Мурах",
+    "adjective": ["Мураховий"],
+    "cities": ["Мурашник", "Підземна Імперія"],
+    "outerColor": [139, 69, 19],
+    "innerColor": [0, 0, 0]
+  },
+  {
+    "name": "Children",
+    "leaderName": "Дитина",
+    "adjective": ["Дитячий"],
+    "cities": ["Ігровий Майданчик", "Казковий Світ"],
+    "outerColor": [255, 192, 203],
+    "innerColor": [0, 191, 255]
+  },
+  {
+    "name": "Adults",
+    "leaderName": "Дорослий",
+    "adjective": ["Дорослий"],
+    "cities": ["Офіс", "Банк"],
+    "outerColor": [0, 0, 139],
+    "innerColor": [169, 169, 169]
+  },
+  {
+    "name": "Teenagers",
+    "leaderName": "Підліток",
+    "adjective": ["Підлітковий"],
+    "cities": ["Школа", "TikTok Місто"],
+    "outerColor": [255, 0, 255],
+    "innerColor": [0, 255, 0]
+  },
+  {
+    "name": "Depressive",
+    "leaderName": "Депресивний",
+    "adjective": ["Депресивний"],
+    "cities": ["Темна Долина", "Самотність"],
+    "outerColor": [105, 105, 105],
+    "innerColor": [0, 0, 0]
+  },
+  {
+    "name": "Starch",
+    "leaderName": "Картопляний Король",
+    "adjective": ["Крахмальний"],
+    "cities": ["Картопляне Поле", "Пюреленд"],
+    "outerColor": [255, 255, 0],
+    "innerColor": [139, 69, 19]
+  },
+  {
+    "name": "Ranters",
+    "leaderName": "Крикун",
+    "adjective": ["Крикунський"],
+    "cities": ["Ораторія", "Гучноміст"],
+    "outerColor": [139, 0, 0],
+    "innerColor": [255, 69, 0]
+  },
+  {
+    "name": "Predsmertnoe",
+    "leaderName": "Смерть",
+    "adjective": ["Предсмертний"],
+    "cities": ["Могила", "Кладовище"],
+    "outerColor": [0, 0, 0],
+    "innerColor": [105, 105, 105]
+  },
+  {
+    "name": "Андроиды",
+    "leaderName": "Optimus Prime",
+    "adjective": ["Андроїдний"],
+    "cities": ["Cyber City", "Robot Factory"],
+    "outerColor": [0, 255, 0],
+    "innerColor": [0, 0, 139]
+  },
+  {
+    "name": "Айфоны",
+    "leaderName": "Steve Jobs",
+    "adjective": ["Apple"],
+    "cities": ["Cupertino", "iCity"],
+    "outerColor": [255, 215, 0],
+    "innerColor": [0, 0, 0]
+  },
+  {
+    "name": "Виндовс",
+    "leaderName": "Bill Gates",
+    "adjective": ["Windows"],
+    "cities": ["Redmond", "Blue Screen City"],
+    "outerColor": [0, 0, 255],
+    "innerColor": [255, 255, 255]
+  },
+  {
+    "name": "Линукс",
+    "leaderName": "Linus Torvalds",
+    "adjective": ["Linux"],
+    "cities": ["Kernel City", "Open Source"],
+    "outerColor": [255, 165, 0],
+    "innerColor": [0, 128, 0]
+  },
+  {
+    "name": "Майнеры",
+    "leaderName": "Crypto King",
+    "adjective": ["Майнерский"],
+    "cities": ["Mining Rig", "Blockchain"],
+    "outerColor": [255, 140, 0],
+    "innerColor": [0, 0, 0]
+  },
+  {
+    "name": "Читеры",
+    "leaderName": "Cheater",
+    "adjective": ["Читерский"],
+    "cities": ["Hack City", "God Mode"],
+    "outerColor": [0, 255, 255],
+    "innerColor": [255, 0, 0]
+  },
+  {
+    "name": "Хакеры",
+    "leaderName": "Anonymous",
+    "adjective": ["Хакерский"],
+    "cities": ["Dark Web", "Zero Day"],
+    "outerColor": [0, 0, 0],
+    "innerColor": [0, 255, 0]
+  },
+  {
+    "name": "Ддосеры",
+    "leaderName": "DDoS Lord",
+    "adjective": ["DDoS"],
+    "cities": ["Flood City", "Lag Zone"],
+    "outerColor": [128, 0, 128],
+    "innerColor": [255, 0, 255]
+  }
+]
