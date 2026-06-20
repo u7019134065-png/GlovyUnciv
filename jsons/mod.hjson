@@ -1,0 +1,8 @@
+{
+  "name": "GlovyUnciv",
+  "author": "Glovy",
+  "description": "Мод з нацією Україна для Unciv",
+  "modOptions": {
+    "isBaseRuleset": false
+  }
+}
