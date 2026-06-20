@@ -1,45 +1,46 @@
 [
   {
     "name": "Маленька Шахта",
-    "replaces": "Mine",
     "uniqueTo": "Ukraine",
-    "cost": 80,
+    "replaces": "Mine",
+    "cost": 60,
+    "maintenance": 1,
     "gold": 40,
-    "maintenance": 2,
     "requiredTech": "Mining"
   },
   {
     "name": "Середня Шахта",
-    "replaces": "Mine",
     "uniqueTo": "Ukraine",
+    "replaces": "Mine",
     "cost": 120,
+    "maintenance": 2,
     "gold": 80,
-    "maintenance": 3,
     "requiredTech": "Mining"
   },
   {
     "name": "Огромна Шахта",
-    "replaces": "Mine",
     "uniqueTo": "Ukraine",
-    "cost": 200,
-    "gold": 260,
+    "replaces": "Mine",
+    "cost": 300,
     "maintenance": 5,
+    "gold": 260,
     "requiredTech": "Mining"
   },
   {
     "name": "Огромнейшая Шахта",
-    "replaces": "Mine",
     "uniqueTo": "Ukraine",
-    "cost": 350,
-    "gold": 500,
+    "replaces": "Mine",
+    "cost": 600,
     "maintenance": 8,
+    "gold": 500,
     "requiredTech": "Mining"
   },
   {
     "name": "МегаПолис",
-    "replaces": "National Epic",
     "uniqueTo": "Ukraine",
+    "replaces": "National Epic",
     "cost": 300,
+    "maintenance": 0,
     "gold": 350,
     "food": 100,
     "culture": 600,
@@ -47,46 +48,7 @@
     "faith": 500,
     "production": 1000,
     "science": 1000,
+    "uniques": ["Only available in capital"],
     "requiredTech": "Engineering"
-  },
-  {
-    "name": "Гімн України",
-    "replaces": "Monument",
-    "uniqueTo": "Ukraine",
-    "cost": 60,
-    "happiness": 70,
-    "requiredTech": "Drama"
-  },
-  {
-    "name": "Стінне Рисування",
-    "replaces": "Monument",
-    "uniqueTo": "Ukraine",
-    "cost": 70,
-    "culture": 30,
-    "requiredTech": "Drama"
-  },
-  {
-    "name": "Хвилина Мовчання",
-    "replaces": "Monument",
-    "uniqueTo": "Ukraine",
-    "cost": 100,
-    "happiness": 300,
-    "requiredTech": "Theology"
-  },
-  {
-    "name": "Достоинство",
-    "replaces": "Temple",
-    "uniqueTo": "Ukraine",
-    "cost": 150,
-    "faith": 300,
-    "requiredTech": "Theology"
-  },
-  {
-    "name": "Щоденна Рубка",
-    "replaces": "Workshop",
-    "uniqueTo": "Ukraine",
-    "cost": 180,
-    "production": 700,
-    "requiredTech": "Metal Casting"
   }
 ]
