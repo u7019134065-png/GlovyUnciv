@@ -50,5 +50,222 @@
     "science": 1000,
     "uniques": ["Only available in capital"],
     "requiredTech": "Engineering"
+  },
+  {
+    "name": "Гімн України",
+    "uniqueTo": "Ukraine",
+    "replaces": "National Epic",
+    "cost": 250,
+    "maintenance": 0,
+    "happiness": 70,
+    "culture": 40,
+    "requiredTech": "Philosophy"
+  },
+  {
+    "name": "Стінне Рисування",
+    "uniqueTo": "Ukraine",
+    "replaces": "Monument",
+    "cost": 180,
+    "maintenance": 1,
+    "culture": 30,
+    "requiredTech": "Theology"
+  },
+  {
+    "name": "Хвилина Мовчання",
+    "uniqueTo": "Ukraine",
+    "replaces": "Monument",
+    "cost": 400,
+    "maintenance": 3,
+    "happiness": 300,
+    "requiredTech": "Writing"
+  },
+  {
+    "name": "Достоинство",
+    "uniqueTo": "Ukraine",
+    "replaces": "Temple",
+    "cost": 220,
+    "maintenance": 2,
+    "faith": 300,
+    "requiredTech": "Theology"
+  },
+  {
+    "name": "Щоденна Рубка",
+    "uniqueTo": "Ukraine",
+    "replaces": "Lumber Mill",
+    "cost": 150,
+    "maintenance": 1,
+    "production": 700,
+    "requiredTech": "The Wheel"
+  },
+  {
+    "name": "Церква Святого Миколая",
+    "uniqueTo": "Ukraine",
+    "replaces": "Temple",
+    "cost": 280,
+    "maintenance": 0,
+    "faith": 80,
+    "requiredTech": "Theology"
+  },
+  {
+    "name": "Орден Залізного Хреста",
+    "uniqueTo": "Ukraine",
+    "replaces": "Monument",
+    "cost": 350,
+    "maintenance": 2,
+    "culture": 150,
+    "requiredTech": "Civil Service"
+  },
+  {
+    "name": "Пам'ятник Бойовим Діячам",
+    "uniqueTo": "Ukraine",
+    "replaces": "Monument",
+    "cost": 320,
+    "maintenance": 1,
+    "culture": 120,
+    "requiredTech": "Civil Service"
+  },
+  {
+    "name": "Музей Великої Вітчизняної",
+    "uniqueTo": "Ukraine",
+    "replaces": "Monument",
+    "cost": 380,
+    "maintenance": 3,
+    "culture": 200,
+    "requiredTech": "Civil Service"
+  },
+  {
+    "name": "Голодоморний Меморіал",
+    "uniqueTo": "Ukraine",
+    "replaces": "Monument",
+    "cost": 450,
+    "maintenance": 4,
+    "culture": 250,
+    "requiredTech": "Civil Service"
+  },
+  {
+    "name": "Монумент Незалежності",
+    "uniqueTo": "Ukraine",
+    "replaces": "Monument",
+    "cost": 500,
+    "maintenance": 5,
+    "culture": 300,
+    "requiredTech": "Civil Service"
+  },
+  {
+    "name": "Стадион "Олімпійський"",
+    "uniqueTo": "Ukraine",
+    "replaces": "Colosseum",
+    "cost": 320,
+    "maintenance": 2,
+    "happiness": 100,
+    "requiredTech": "Civil Service"
+  },
+  {
+    "name": "Пам'ятник Кобзарю",
+    "uniqueTo": "Ukraine",
+    "replaces": "Monument",
+    "cost": 400,
+    "maintenance": 3,
+    "culture": 180,
+    "requiredTech": "Civil Service"
+  },
+  {
+    "name": "Меморіал Героїв Небесної Сотні",
+    "uniqueTo": "Ukraine",
+    "replaces": "Monument",
+    "cost": 450,
+    "maintenance": 4,
+    "culture": 220,
+    "requiredTech": "Civil Service"
+  },
+  {
+    "name": "Музей Української Духовності",
+    "uniqueTo": "Ukraine",
+    "replaces": "Monument",
+    "cost": 480,
+    "maintenance": 5,
+    "culture": 250,
+    "requiredTech": "Civil Service"
+  },
+  {
+    "name": "Пам'ятник Бунту в Керченській протоці",
+    "uniqueTo": "Ukraine",
+    "replaces": "Monument",
+    "cost": 420,
+    "maintenance": 3,
+    "culture": 200,
+    "requiredTech": "Civil Service"
+  },
+  {
+    "name": "Меморіал Голодомору",
+    "uniqueTo": "Ukraine",
+    "replaces": "Monument",
+    "cost": 470,
+    "maintenance": 4,
+    "culture": 230,
+    "requiredTech": "Civil Service"
+  },
+  {
+    "name": "Монумент "Материнська Земля"",
+    "uniqueTo": "Ukraine",
+    "replaces": "Monument",
+    "cost": 490,
+    "maintenance": 5,
+    "culture": 260,
+    "requiredTech": "Civil Service"
+  },
+  {
+    "name": "Стадион "Динамо"",
+    "uniqueTo": "Ukraine",
+    "replaces": "Colosseum",
+    "cost": 340,
+    "maintenance": 2,
+    "happiness": 120,
+    "requiredTech": "Civil Service"
+  },
+  {
+    "name": "Меморіал Жертв Голодомору",
+    "uniqueTo": "Ukraine",
+    "replaces": "Monument",
+    "cost": 460,
+    "maintenance": 4,
+    "culture": 240,
+    "requiredTech": "Civil Service"
+  },
+  {
+    "name": "Пам'ятник "Слава Героям!"",
+    "uniqueTo": "Ukraine",
+    "replaces": "Monument",
+    "cost": 480,
+    "maintenance": 5,
+    "culture": 270,
+    "requiredTech": "Civil Service"
+  },
+  {
+    "name": "Музей Української Історії",
+    "uniqueTo": "Ukraine",
+    "replaces": "Monument",
+    "cost": 500,
+    "maintenance": 6,
+    "culture": 280,
+    "requiredTech": "Civil Service"
+  },
+  {
+    "name": "Монумент "Боротьба за Незалежність"",
+    "uniqueTo": "Ukraine",
+    "replaces": "Monument",
+    "cost": 520,
+    "maintenance": 5,
+    "culture": 290,
+    "requiredTech": "Civil Service"
+  },
+  {
+    "name": "Пам'ятник "Небесна Сотня"",
+    "uniqueTo": "Ukraine",
+    "replaces": "Monument",
+    "cost": 550,
+    "maintenance": 6,
+    "culture": 300,
+    "requiredTech": "Civil Service"
   }
 ]
