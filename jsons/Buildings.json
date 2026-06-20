@@ -1,0 +1,95 @@
+[
+  {
+    "name": "Маленька Шахта",
+    "replaces": "Mine",
+    "uniqueTo": "Ukraine",
+    "cost": 60,
+    "gold": 40,
+    "maintenance": 1
+  },
+  {
+    "name": "Середня Шахта",
+    "replaces": "Mine",
+    "uniqueTo": "Ukraine",
+    "cost": 120,
+    "gold": 80,
+    "maintenance": 2
+  },
+  {
+    "name": "Огромна Шахта",
+    "replaces": "Mine",
+    "uniqueTo": "Ukraine",
+    "cost": 240,
+    "gold": 260,
+    "maintenance": 4
+  },
+  {
+    "name": "Огромнейша Шахта",
+    "replaces": "Mine",
+    "uniqueTo": "Ukraine",
+    "cost": 480,
+    "gold": 500,
+    "maintenance": 8
+  },
+  {
+    "name": "Стінне Рисування",
+    "replaces": "Monument",
+    "uniqueTo": "Ukraine",
+    "cost": 80,
+    "culture": 30,
+    "maintenance": 1
+  },
+  {
+    "name": "Гімн України",
+    "replaces": "Temple",
+    "uniqueTo": "Ukraine",
+    "cost": 150,
+    "happiness": 70,
+    "faith": 50,
+    "maintenance": 3
+  },
+  {
+    "name": "Державне Рисування",
+    "replaces": "Opera House",
+    "uniqueTo": "Ukraine",
+    "cost": 200,
+    "culture": 90,
+    "happiness": 90,
+    "maintenance": 4
+  },
+  {
+    "name": "Хвилина Мовчання",
+    "replaces": "Museum",
+    "uniqueTo": "Ukraine",
+    "cost": 350,
+    "happiness": 300,
+    "culture": 100,
+    "maintenance": 6
+  },
+  {
+    "name": "Церква",
+    "replaces": "Temple",
+    "uniqueTo": "Ukraine",
+    "cost": 120,
+    "faith": 80,
+    "happiness": 10,
+    "maintenance": 2
+  },
+  {
+    "name": "Достоинство",
+    "replaces": "Cathedral",
+    "uniqueTo": "Ukraine",
+    "cost": 300,
+    "faith": 300,
+    "culture": 50,
+    "maintenance": 5
+  },
+  {
+    "name": "Щоденна Рубка",
+    "replaces": "Workshop",
+    "uniqueTo": "Ukraine",
+    "cost": 180,
+    "production": 700,
+    "maintenance": 5
+  }
+]
