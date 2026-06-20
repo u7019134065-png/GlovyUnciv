@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Ukraine",
+    "leaderName": "Volodymyr Zelenskyy",
+    "adjective": "Ukrainian",
+    "startBias": ["Plains", "Grassland"],
+    "colors": ["#FFD700", "#0033A0"],
+    "cityNames": ["Kyiv", "Kharkiv", "Odesa", "Lviv", "Dnipro", "Zaporizhzhia", "Donetsk", "Mykolaiv", "Mariupol", "Vinnytsia", "Kherson", "Poltava", "Chernihiv", "Sumy", "Zhytomyr", "Cherkasy", "Khmelnytskyi", "Rivne", "Ivano-Frankivsk", "Ternopil", "Lutsk", "Uzhhorod", "Chernivtsi", "Kropyvnytskyi", "Mykolaiv", "Kryvyi Rih", "Sevastopol"],
+    "uniqueAbility": {
+      "name": "Unbreakable Spirit",
+      "uniques": ["+20% Culture in coastal cities", "+15% Production toward defensive units", "Modern units receive +10% combat strength"]
+    },
+    "quote": "Слава Україні!",
+    "intro": "Вітаю! Я Володимир Зеленський, президент України.",
+    "warDeclaration": "Ми будемо битися до кінця!"
+  }
+]
