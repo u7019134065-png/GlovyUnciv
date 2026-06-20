@@ -1,17 +1,29 @@
 [
-  {
-    "name": "Ukraine",
-    "leaderName": "Volodymyr Zelenskyy",
-    "adjective": "Ukrainian",
-    "startBias": ["Plains", "Grassland"],
-    "colors": ["#FFD700", "#0033A0"],
-    "cityNames": ["Kyiv", "Kharkiv", "Odesa", "Lviv", "Dnipro", "Zaporizhzhia", "Donetsk", "Mykolaiv", "Mariupol", "Vinnytsia", "Kherson", "Poltava", "Chernihiv", "Sumy", "Zhytomyr", "Cherkasy", "Khmelnytskyi", "Rivne", "Ivano-Frankivsk", "Ternopil", "Lutsk", "Uzhhorod", "Chernivtsi", "Kropyvnytskyi", "Mykolaiv", "Kryvyi Rih", "Sevastopol"],
-    "uniqueAbility": {
-      "name": "Unbreakable Spirit",
-      "uniques": ["+20% Culture in coastal cities", "+15% Production toward defensive units", "Modern units receive +10% combat strength"]
-    },
-    "quote": "Слава Україні!",
-    "intro": "Вітаю! Я Володимир Зеленський, президент України.",
-    "warDeclaration": "Ми будемо битися до кінця!"
-  }
+	{
+		"name": "Ukraine",
+		"leaderName": "Volodymyr Zelenskyy",
+		"adjective": ["Ukrainian"],
+		"startBias": ["Plains", "Grassland"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "Слава Україні!",
+		"startIntroPart2": "Ми стоїмо за свободу і незалежність. Героям слава!",
+		
+		"declaringWar": "Ми будемо захищати нашу землю до останнього!",
+		"attacked": "Ворог на нашій території!",
+		"defeated": "Ми ніколи не здамося. Україна переможе!",
+		"introduction": "Вітаємо. Ми — Україна, нація, яка бореться за свободу.",
+		
+		"neutralHello": "Привіт! Як справи?",
+		"hateHello": "Що тобі потрібно?",
+		
+		"tradeRequest": "Давай обміняємося чимось корисним.",
+		"denounced": "Ти зрадив наші принципи.",
+		"declaringfriendship": "Будьмо друзями! Разом сильніші.",
+
+		"outerColor": [255, 215, 0],
+		"innerColor": [0, 87, 183],
+		"unique": "Unbreakable Spirit",
+		"cities": ["Kyiv", "Kharkiv", "Odesa", "Lviv", "Dnipro", "Zaporizhzhia", "Donetsk", "Mykolaiv", "Vinnytsia", "Kherson", "Chernihiv", "Poltava", "Sumy", "Zhytomyr", "Cherkasy", "Rivne", "Ivano-Frankivsk", "Ternopil", "Luhansk", "Khmelnytskyi", "Chernivtsi", "Uzhhorod", "Mariupol", "Kryvyi Rih", "Sevastopol"]
+	}
 ]
