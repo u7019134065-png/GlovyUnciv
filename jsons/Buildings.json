@@ -1,95 +1,356 @@
 [
+  // Ukraine special buildings
   {
     "name": "Маленька Шахта",
     "replaces": "Mine",
     "uniqueTo": "Ukraine",
     "cost": 60,
-    "gold": 40,
-    "maintenance": 1
+    "gold": 40
   },
   {
     "name": "Середня Шахта",
     "replaces": "Mine",
     "uniqueTo": "Ukraine",
     "cost": 120,
-    "gold": 80,
-    "maintenance": 2
+    "gold": 80
   },
   {
     "name": "Огромна Шахта",
     "replaces": "Mine",
     "uniqueTo": "Ukraine",
     "cost": 240,
-    "gold": 260,
-    "maintenance": 4
-  },
-  {
-    "name": "Огромнейша Шахта",
-    "replaces": "Mine",
-    "uniqueTo": "Ukraine",
-    "cost": 480,
-    "gold": 500,
-    "maintenance": 8
+    "gold": 260
   },
   {
     "name": "Стінне Рисування",
     "replaces": "Monument",
     "uniqueTo": "Ukraine",
     "cost": 80,
-    "culture": 30,
-    "maintenance": 1
+    "culture": 30
   },
   {
     "name": "Гімн України",
     "replaces": "Temple",
     "uniqueTo": "Ukraine",
     "cost": 150,
-    "happiness": 70,
-    "faith": 50,
-    "maintenance": 3
-  },
-  {
-    "name": "Державне Рисування",
-    "replaces": "Opera House",
-    "uniqueTo": "Ukraine",
-    "cost": 200,
-    "culture": 90,
-    "happiness": 90,
-    "maintenance": 4
-  },
-  {
-    "name": "Хвилина Мовчання",
-    "replaces": "Museum",
-    "uniqueTo": "Ukraine",
-    "cost": 350,
-    "happiness": 300,
-    "culture": 100,
-    "maintenance": 6
-  },
-  {
-    "name": "Церква",
-    "replaces": "Temple",
-    "uniqueTo": "Ukraine",
-    "cost": 120,
-    "faith": 80,
-    "happiness": 10,
-    "maintenance": 2
-  },
-  {
-    "name": "Достоинство",
-    "replaces": "Cathedral",
-    "uniqueTo": "Ukraine",
-    "cost": 300,
-    "faith": 300,
-    "culture": 50,
-    "maintenance": 5
+    "happiness": 70
   },
   {
     "name": "Щоденна Рубка",
     "replaces": "Workshop",
     "uniqueTo": "Ukraine",
     "cost": 180,
-    "production": 700,
-    "maintenance": 5
+    "production": 700
+  },
+  // Bees
+  {
+    "name": "Honey Factory",
+    "replaces": "Workshop",
+    "uniqueTo": "Bees",
+    "cost": 100,
+    "production": 5,
+    "food": 3
+  },
+  {
+    "name": "Pollen Temple",
+    "replaces": "Temple",
+    "uniqueTo": "Bees",
+    "cost": 120,
+    "faith": 8,
+    "culture": 4
+  },
+  {
+    "name": "Swarm Hub",
+    "replaces": "Barracks",
+    "uniqueTo": "Bees",
+    "cost": 80,
+    "uniques": ["+25% production of land units"]
+  },
+  // USSR
+  {
+    "name": "Колхоз",
+    "replaces": "Granary",
+    "uniqueTo": "СССР",
+    "cost": 80,
+    "food": 4
+  },
+  {
+    "name": "Гулаг",
+    "replaces": "Prison",
+    "uniqueTo": "СССР",
+    "cost": 150,
+    "uniques": ["+20% production"]
+  },
+  {
+    "name": "П'ятирічка",
+    "replaces": "Factory",
+    "uniqueTo": "СССР",
+    "cost": 250,
+    "production": 10
+  },
+  // Kazakhstan
+  {
+    "name": "Юрта",
+    "replaces": "Monument",
+    "uniqueTo": "Kazakhstan",
+    "cost": 60,
+    "culture": 5
+  },
+  {
+    "name": "Степовий Аул",
+    "replaces": "Market",
+    "uniqueTo": "Kazakhstan",
+    "cost": 120,
+    "gold": 6
+  },
+  {
+    "name": "Кімшак",
+    "replaces": "Stable",
+    "uniqueTo": "Kazakhstan",
+    "cost": 100,
+    "uniques": ["+15% movement on plains"]
+  },
+  // Belarus
+  {
+    "name": "Бульбяна Фабрика",
+    "replaces": "Granary",
+    "uniqueTo": "Belarus",
+    "cost": 90,
+    "food": 6
+  },
+  {
+    "name": "Тракторний Завод",
+    "replaces": "Workshop",
+    "uniqueTo": "Belarus",
+    "cost": 140,
+    "production": 7
+  },
+  {
+    "name": "Лісовий Комбінат",
+    "replaces": "Lumber Mill",
+    "uniqueTo": "Belarus",
+    "cost": 110,
+    "production": 5
+  },
+  // Afghanistan
+  {
+    "name": "Гірська Кріпость",
+    "replaces": "Walls",
+    "uniqueTo": "Afghanistan",
+    "cost": 100,
+    "uniques": ["+50% defense in hills"]
+  },
+  {
+    "name": "Мечеть Воїнів",
+    "replaces": "Temple",
+    "uniqueTo": "Afghanistan",
+    "cost": 130,
+    "faith": 10
+  },
+  {
+    "name": "Каравани Серп",
+    "replaces": "Market",
+    "uniqueTo": "Afghanistan",
+    "cost": 140,
+    "gold": 8
+  },
+  // Taiwan
+  {
+    "name": "TSMC Fab",
+    "replaces": "University",
+    "uniqueTo": "Taiwan",
+    "cost": 220,
+    "science": 12
+  },
+  {
+    "name": "Night Market",
+    "replaces": "Market",
+    "uniqueTo": "Taiwan",
+    "cost": 110,
+    "gold": 10
+  },
+  {
+    "name": "High Tech Park",
+    "replaces": "Factory",
+    "uniqueTo": "Taiwan",
+    "cost": 260,
+    "production": 8,
+    "science": 6
+  },
+  // Ranters
+  {
+    "name": "Мегафон",
+    "replaces": "Broadcast Tower",
+    "uniqueTo": "Ranters",
+    "cost": 180,
+    "culture": 12
+  },
+  {
+    "name": "Кричалка",
+    "replaces": "Monument",
+    "uniqueTo": "Ranters",
+    "cost": 70,
+    "culture": 8
+  },
+  {
+    "name": "Форум Ор",
+    "replaces": "Opera House",
+    "uniqueTo": "Ranters",
+    "cost": 160,
+    "culture": 10
+  },
+  // Предсмертное
+  {
+    "name": "Могильна Каплиця",
+    "replaces": "Temple",
+    "uniqueTo": "Предсмертное",
+    "cost": 140,
+    "faith": 12
+  },
+  {
+    "name": "Останній Притулок",
+    "replaces": "Hospital",
+    "uniqueTo": "Предсмертное",
+    "cost": 200,
+    "uniques": ["+30% when near defeat"]
+  },
+  {
+    "name": "Прощальний Монумент",
+    "replaces": "Monument",
+    "uniqueTo": "Предсмертное",
+    "cost": 80,
+    "culture": 6
+  },
+  // Children
+  {
+    "name": "Ігрова Площадка",
+    "replaces": "Monument",
+    "uniqueTo": "Children",
+    "cost": 50,
+    "happiness": 8
+  },
+  {
+    "name": "Солодка Фабрика",
+    "replaces": "Granary",
+    "uniqueTo": "Children",
+    "cost": 90,
+    "food": 5
+  },
+  {
+    "name": "Казковий Сад",
+    "replaces": "Garden",
+    "uniqueTo": "Children",
+    "cost": 120,
+    "culture": 7
+  },
+  // Adults
+  {
+    "name": "Офісний Центр",
+    "replaces": "Bank",
+    "uniqueTo": "Adults",
+    "cost": 180,
+    "gold": 12
+  },
+  {
+    "name": "Іпотечний Банк",
+    "replaces": "Market",
+    "uniqueTo": "Adults",
+    "cost": 130,
+    "gold": 9
+  },
+  {
+    "name": "Корпоративна Столова",
+    "replaces": "Granary",
+    "uniqueTo": "Adults",
+    "cost": 100,
+    "food": 4
+  },
+  // Teenagers
+  {
+    "name": "ТікТок Студія",
+    "replaces": "Broadcast Tower",
+    "uniqueTo": "Teenagers",
+    "cost": 160,
+    "culture": 11
+  },
+  {
+    "name": "Геймерська Кімната",
+    "replaces": "Workshop",
+    "uniqueTo": "Teenagers",
+    "cost": 110,
+    "production": 6
+  },
+  {
+    "name": "Шкільний Двір",
+    "replaces": "Monument",
+    "uniqueTo": "Teenagers",
+    "cost": 60,
+    "happiness": 6
+  },
+  // Depressive
+  {
+    "name": "Темна Кімната",
+    "replaces": "Temple",
+    "uniqueTo": "Depressive",
+    "cost": 130,
+    "culture": 8
+  },
+  {
+    "name": "Меланхолійний Парк",
+    "replaces": "Garden",
+    "uniqueTo": "Depressive",
+    "cost": 140,
+    "culture": 9
+  },
+  {
+    "name": "Плачливий Меморіал",
+    "replaces": "Monument",
+    "uniqueTo": "Depressive",
+    "cost": 70,
+    "culture": 7
+  },
+  // Starch
+  {
+    "name": "Картопляний Завод",
+    "replaces": "Granary",
+    "uniqueTo": "Starch",
+    "cost": 90,
+    "food": 8
+  },
+  {
+    "name": "Пюре Фабрика",
+    "replaces": "Workshop",
+    "uniqueTo": "Starch",
+    "cost": 150,
+    "production": 9
+  },
+  {
+    "name": "Крахмальний Склад",
+    "replaces": "Market",
+    "uniqueTo": "Starch",
+    "cost": 120,
+    "gold": 7
+  },
+  // Ants
+  {
+    "name": "Великий Муравейник",
+    "replaces": "Granary",
+    "uniqueTo": "Ants",
+    "cost": 80,
+    "food": 5
+  },
+  {
+    "name": "Тунельний Центр",
+    "replaces": "Barracks",
+    "uniqueTo": "Ants",
+    "cost": 100,
+    "uniques": ["+20% unit production"]
+  },
+  {
+    "name": "Колонія Лабораторія",
+    "replaces": "University",
+    "uniqueTo": "Ants",
+    "cost": 200,
+    "science": 8
   }
 ]
