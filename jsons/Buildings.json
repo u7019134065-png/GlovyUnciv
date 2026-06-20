@@ -88,13 +88,5 @@
     "cost": 180,
     "production": 700,
     "requiredTech": "Metal Casting"
-  },
-  {
-    "name": "Гулаг",
-    "replaces": "Prison",
-    "uniqueTo": "СССР",
-    "cost": 150,
-    "production": 50,
-    "happiness": -10
   }
 ]
