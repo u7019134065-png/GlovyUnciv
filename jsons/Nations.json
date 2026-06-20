@@ -1,13 +1,1 @@
-[
-  {
-    "name": "Ukraine",
-    "leaderName": "Володимир Зеленський",
-    "adjective": ["український"],
-    "startBias": ["Plains"],
-    "preferredVictoryType": "Cultural",
-    "outerColor": [255, 215, 0],
-    "innerColor": [0, 87, 183],
-    "unique": "Unbreakable Spirit",
-    "cities": ["Київ", "Харків", "Одеса", "Львів", "Дніпро"]
-  }
-]
+[{"name": "Ukraine","leaderName": "Володимир Зеленський","adjective": ["Український"],"startBias": ["Plains"],"preferredVictoryType": "Cultural","outerColor": [255,215,0],"innerColor": [0,87,183],"unique": "Unbreakable Spirit - +20% Culture and Defense","cities": ["Київ","Харків","Одеса","Львів","Дніпро","Запоріжжя","Луцьк","Вінниця","Полтава","Суми","Чернігів","Херсон","Миколаїв","Черкаси","Житомир","Кривий Ріг","Маріуполь","Донецьк","Луганськ"]},{"name": "СССР","leaderName": "Иосиф Сталин","adjective": ["Советский"],"startBias": ["Tundra"],"preferredVictoryType": "Domination","outerColor": [220,20,60],"innerColor": [255,215,0],"unique": "Великая Держава","cities": ["Москва","Ленинград","Киев","Минск","Алма-Ата"]},{"name": "Kazakhstan","leaderName": "Нурсултан Назарбаев","adjective": ["Казахский"],"startBias": ["Plains"],"preferredVictoryType": "Scientific","outerColor": [0,128,0],"innerColor": [255,215,0],"unique": "Степная Империя","cities": ["Астана","Алматы","Шымкент"]},{"name": "Belarus","leaderName": "Александр Лукашенко","adjective": ["Белорусский"],"startBias": ["Forest"],"preferredVictoryType": "Diplomatic","outerColor": [0,0,139],"innerColor": [255,255,255],"unique": "Стабильность","cities": ["Минск","Гомель","Могилев"]},{"name": "Afghanistan","leaderName": "Ашраф Гани","adjective": ["Афганский"],"startBias": ["Desert"],"preferredVictoryType": "Domination","outerColor": [0,0,0],"innerColor": [220,20,60],"unique": "Горная Война","cities": ["Кабул","Кандагар","Герат"]},{"name": "Taiwan","leaderName": "Цай Инвэнь","adjective": ["Тайваньский"],"startBias": ["Coast"],"preferredVictoryType": "Scientific","outerColor": [0,0,139],"innerColor": [255,0,0],"unique": "Технологический Дракон","cities": ["Тайбэй","Гаосюн","Тайчжун"]},{"name": "Bees","leaderName": "Queen Bee","adjective": ["Пчелиный"],"startBias": ["Plains"],"preferredVictoryType": "Cultural","outerColor": [255,215,0],"innerColor": [0,0,0],"unique": "Hive Mind","cities": ["The Hive","Honeycomb City"]},{"name": "Ants","leaderName": "Ant King","adjective": ["Муравьиный"],"startBias": ["Forest"],"preferredVictoryType": "Domination","outerColor": [139,69,19],"innerColor": [0,0,0],"unique": "Colony Strength","cities": ["Ant Hill","Underground Empire"]}]

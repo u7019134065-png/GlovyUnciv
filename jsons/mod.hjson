@@ -1,8 +1,6 @@
 {
-  "name": "GlovyUnciv",
-  "author": "Glovy",
-  "description": "Мод з нацією Україна для Unciv",
-  "modOptions": {
-    "isBaseRuleset": false
-  }
+  name: "GlovyUnciv"
+  author: "Glovy"
+  description: "Мод з багатьма націями та унікальними будівлями"
+  modVersion: 1
 }
